@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+@import '_showcaseCarousel';
+@import '_navbar';
+$primary-color: #0b132b;
+$primary-accent: #6fffe9;
+$primary-text: #fff;
+
+// https://coolors.co/0b132b-1c2541-3a506b-5bc0be-6fffe9
+
+* {
+  box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif;
+  margin: 0;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+.container {
+  width: 100vw;
+  padding: 1rem 1rem;
+}
+
+.content {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  padding: 1rem 1rem;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  // grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1rem;
+
+  .card {
+    background-color: $primary-color;
+    color: $primary-text;
+    border: 1px solid $primary-accent;
+    border-radius: 6px;
+    height: auto;
+    width: auto;
+
+    .img-card-top {
+      height: 250px;
+      // object-fit: cover;
+      width: 300px;
+      // margin: auto;
+      background-image: url('./img/vw.jpg');
+    }
+  }
+}
+
+%btn {
+  border: 1px solid;
+  border-radius: 6px;
+}
+
+%message {
+  color: $primary-text;
+}
+
+.error {
+  @extend %message;
+  background-color: red;
+}
+
+body::-webkit-scrollbar {
+  width: 1rem;
+}
+body::-webkit-scrollbar-track {
+  background: $primary-color;
+}
+body::-webkit-scrollbar-thumb {
+  background: $primary-accent;
+}

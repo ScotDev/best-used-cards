@@ -1,0 +1,57 @@
+$primary-color: #0b132b;
+$primary-accent: #6fffe9;
+$primary-text: #fff;
+
+$black: #000;
+
+.carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  min-height: 25%;
+  // height: 30%;
+  background-color: rgba($primary-color, $alpha: 0.2);
+  background-image: url('./img/car_main.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $primary-text;
+  padding: 1rem 1rem;
+  border-radius: 6px;
+  overflow: hidden;
+
+  .text-helper {
+    background-color: rgba($black, 0.4);
+    border: 1px solid $primary-text;
+    border-radius: 6px;
+    padding: 1rem 1rem;
+    overflow: hidden;
+  }
+
+  h1 {
+    font-size: 4rem;
+    overflow: hidden;
+  }
+
+  p {
+    font-size: 2rem;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .carousel {
+    .text-helper {
+      h1 {
+        font-size: 1.8rem;
+      }
+
+      p {
+        font-size: 1.25rem;
+      }
+    }
+  }
+}
