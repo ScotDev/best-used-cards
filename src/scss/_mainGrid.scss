@@ -62,6 +62,7 @@ $trans-speed-mid: ease 0.6s;
     transform: scale(1.03);
     color: rgba($primary-accent, 0.5);
     transition: $trans-speed-mid;
+    font-weight: 700;
   }
 
   .card-text {
