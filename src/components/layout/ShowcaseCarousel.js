@@ -5,7 +5,7 @@ export default function HeroCarousel() {
         <div className="carousel">
             <div className="text-helper">
                 <h1>Best Used Cars!</h1>
-                <p>All the best used cars at the lowest pricest in town!</p>
+                <p>All the best used cars at the lowest prices in town!</p>
             </div>
         </div>
     )
