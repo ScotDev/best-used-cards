@@ -22,9 +22,12 @@ $trans-speed-mid: ease 0.6s;
     overflow: hidden;
 
     .img-card-top {
-      height: auto;
+      // height: auto;
+      min-height: 325px;
+      max-height: 325px;
+      object-fit: cover;
       width: 100%;
-      border-bottom: 1px solid $primary-text;
+      border-bottom: 2px solid $primary-text;
     }
 
     .card-title {
