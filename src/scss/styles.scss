@@ -2,9 +2,12 @@
 
 @import '_showcaseCarousel';
 @import '_navbar';
+@import '_footer';
+
 $primary-color: #0b132b;
 $primary-accent: #6fffe9;
 $primary-text: #fff;
+$secondary-text: #757575;
 
 // https://coolors.co/0b132b-1c2541-3a506b-5bc0be-6fffe9
 
@@ -17,36 +20,51 @@ $primary-text: #fff;
 }
 .container {
   width: 100vw;
-  padding: 1rem 1rem;
 }
 
 .content {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  height: 100vh;
-  padding: 1rem 1rem;
+  padding: 1rem 2rem;
 }
 
 .main-grid {
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  // grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   gap: 1rem;
+  // grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
 
   .card {
     background-color: $primary-color;
     color: $primary-text;
-    border: 1px solid $primary-accent;
+    border: 2px solid $primary-accent;
     border-radius: 6px;
-    height: auto;
-    width: auto;
+    min-height: 400px;
+    height: fit-content;
+    width: 100%;
 
     .img-card-top {
-      height: 250px;
-      // object-fit: cover;
-      width: 300px;
-      // margin: auto;
-      background-image: url('./img/vw.jpg');
+      height: auto;
+      width: 100%;
+      border-bottom: 1px solid $primary-text;
+    }
+
+    .card-title {
+      color: $primary-accent;
+      border-bottom: 2px solid $primary-accent;
+      font-size: 1.2rem;
+      text-align: center;
+      margin: 0.5rem 1.5rem;
+    }
+
+    .card-text {
+      color: $primary-text;
+      font-size: 0.9rem;
+      text-align: center;
+      margin: 0.8rem 1rem;
+      overflow: hidden;
+      line-height: 1.5;
     }
   }
 }
@@ -73,4 +91,31 @@ body::-webkit-scrollbar-track {
 }
 body::-webkit-scrollbar-thumb {
   background: $primary-accent;
+}
+
+@media only screen and (max-width: 1500px) {
+  .main-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+  }
+}
+@media only screen and (max-width: 1250px) {
+  .main-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .main-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .main-grid {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
 }

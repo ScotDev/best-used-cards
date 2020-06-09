@@ -11,8 +11,8 @@ $black: #000;
   justify-content: center;
   text-align: center;
   width: 100%;
-  min-height: 25%;
-  // height: 30%;
+  min-height: 10vh;
+  height: 20vh;
   background-color: rgba($primary-color, $alpha: 0.2);
   background-image: url('./img/car_main.jpg');
   background-position: center;
@@ -20,6 +20,7 @@ $black: #000;
   background-size: cover;
   color: $primary-text;
   padding: 1rem 1rem;
+  margin-bottom: 2rem;
   border-radius: 6px;
   overflow: hidden;
 
