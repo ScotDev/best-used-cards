@@ -7,6 +7,9 @@ function Navbar() {
         <nav className="navbar">
             <ul>
                 <li>
+                    <p>Best Used Cars</p>
+                </li>
+                <li>
                     <a href="#">New deals</a>
                 </li>
                 <li>

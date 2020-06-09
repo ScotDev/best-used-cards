@@ -14,11 +14,10 @@ $secondary-text: #757575;
   padding: 1rem 1.5rem;
 
   ul {
-    // display: flex;
-    // // flex-direction: column;
     list-style: none;
     overflow: hidden;
     height: fit-content;
+    width: fit-content;
   }
   li {
     text-align: left;

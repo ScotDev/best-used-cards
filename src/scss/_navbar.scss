@@ -17,11 +17,17 @@
   li {
     text-align: left;
   }
+  p {
+    color: $primary-text;
+    margin-right: 1rem;
+    // line-height: 2;
+    font-size: 1.2rem;
+  }
   a {
     text-decoration: none;
     color: $primary-text;
     margin-right: 1rem;
-    line-height: 2;
+    line-height: 1.6;
   }
   a:hover {
     border-bottom: 1px solid $primary-accent;
@@ -30,14 +36,16 @@
 
 @media only screen and (max-width: 700px) {
   .navbar {
-    height: 3rem;
     font-size: 0.5rem;
-    ul {
-      padding-top: 0.5rem;
-      overflow: hidden;
+
+    li:first-of-type {
+      display: flex;
+      font-size: 1.1rem;
     }
+
     li {
       text-align: left;
+      display: none;
     }
     a {
       text-decoration: none;
