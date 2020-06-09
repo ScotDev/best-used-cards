@@ -2,12 +2,15 @@
 
 @import '_showcaseCarousel';
 @import '_navbar';
+@import '_mainGrid';
 @import '_footer';
 
 $primary-color: #0b132b;
 $primary-accent: #6fffe9;
 $primary-text: #fff;
 $secondary-text: #757575;
+$black: #000;
+$trans-speed-mid: ease 0.6s;
 
 // https://coolors.co/0b132b-1c2541-3a506b-5bc0be-6fffe9
 
@@ -27,52 +30,28 @@ $secondary-text: #757575;
   flex-direction: column;
   width: 100%;
   padding: 1rem 2rem;
+  margin: 5vh 0 1vh 0;
 }
 
-.main-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  gap: 1rem;
-  // grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-
-  .card {
-    background-color: $primary-color;
-    color: $primary-text;
-    border: 2px solid $primary-accent;
-    border-radius: 6px;
-    min-height: 400px;
-    height: fit-content;
-    width: 100%;
-
-    .img-card-top {
-      height: auto;
-      width: 100%;
-      border-bottom: 1px solid $primary-text;
-    }
-
-    .card-title {
-      color: $primary-accent;
-      border-bottom: 2px solid $primary-accent;
-      font-size: 1.2rem;
-      text-align: center;
-      margin: 0.5rem 1.5rem;
-      padding-bottom: 0.3rem;
-    }
-
-    .card-text {
-      color: $primary-text;
-      font-size: 0.9rem;
-      text-align: center;
-      margin: 0.8rem 1rem;
-      overflow: hidden;
-      line-height: 1.5;
-    }
-  }
-}
-
-%btn {
+.btn {
   border: 1px solid;
   border-radius: 6px;
+  padding: 0.5rem 0.7rem;
+  max-width: 20%;
+  min-width: fit-content;
+  margin: 0.5rem 0.5rem;
+}
+
+.primary-btn {
+  @extend .btn;
+  background-color: rgba($black, 0.4);
+  color: $primary-text;
+}
+
+.info-btn {
+  @extend .btn;
+  background-color: $secondary-text;
+  color: $primary-text;
 }
 
 %message {
@@ -92,31 +71,4 @@ body::-webkit-scrollbar-track {
 }
 body::-webkit-scrollbar-thumb {
   background: $primary-accent;
-}
-
-@media only screen and (max-width: 1500px) {
-  .main-grid {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 1rem;
-  }
-}
-@media only screen and (max-width: 1250px) {
-  .main-grid {
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 0.5rem;
-  }
-}
-
-@media only screen and (max-width: 1000px) {
-  .main-grid {
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-  }
-}
-
-@media only screen and (max-width: 700px) {
-  .main-grid {
-    grid-template-columns: 1fr;
-    gap: 0.5rem;
-  }
 }
