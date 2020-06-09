@@ -72,3 +72,9 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background: $primary-accent;
 }
+
+@media only screen and (max-width: 700px) {
+  .content {
+    margin: 8vh 0 0 0;
+  }
+}
