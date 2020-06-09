@@ -109,22 +109,26 @@ $trans-speed-mid: ease 0.6s;
 
 @media only screen and (max-width: 700px) {
   .navbar {
-    font-size: 0.5rem;
-
     // li:first-of-type {
-    p {
-      font-size: 1.1rem;
-    }
+    ul {
+      li {
+        text-align: left;
 
-    li {
-      text-align: left;
-      display: none;
-    }
-    a {
-      text-decoration: none;
-      color: $primary-text;
-      margin-right: 0.2rem;
-      line-height: 2;
+        img {
+          display: flex;
+        }
+        p {
+          font-size: 1.1rem;
+        }
+        a {
+          text-decoration: none;
+          color: $primary-text;
+          margin-right: 0.2rem;
+          line-height: 2;
+          font-size: 0.9rem;
+          display: none;
+        }
+      }
     }
   }
 }
