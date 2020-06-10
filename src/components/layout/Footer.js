@@ -9,19 +9,7 @@ export default function Footer() {
             <ul>
                 <li className="footer-title">Opening Hours</li>
                 <li>
-                    <p>Monday: {weekdayTimes}</p>
-                </li>
-                <li>
-                    <p>Tuesday: {weekdayTimes}</p>
-                </li>
-                <li>
-                    <p>Wednesday: {weekdayTimes}</p>
-                </li>
-                <li>
-                    <p>Thursday: {weekdayTimes}</p>
-                </li>
-                <li>
-                    <p>Friday: {weekdayTimes}</p>
+                    <p>Mon - Fri: {weekdayTimes}</p>
                 </li>
                 <li>
                     <p>Saturday: {saturdayTimes}</p>
@@ -33,7 +21,7 @@ export default function Footer() {
             <ul>
                 <li className="footer-title">Contact Us</li>
                 <li>
-                    <a href="#"><i class="ri-phone-line"></i> +4478985642245</a>
+                    <a href="#"><i class="ri-phone-line"></i> 078985642245</a>
                 </li>
                 <li>
                     <a href="#"><i class="ri-mail-send-line"></i> info@best-used-cars.com</a>
@@ -66,7 +54,7 @@ export default function Footer() {
                     <a href="#">About</a>
                 </li>
             </ul>
-        </div >
+        </div>
 
     )
 }
