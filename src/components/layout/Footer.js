@@ -1,24 +1,33 @@
 import React from 'react'
 
 export default function Footer() {
+    const weekdayTimes = '09:00 - 18:00';
+    const saturdayTimes = '09:00 - 17:00';
+    const sundayTimes = '10:00 - 16:00';
     return (
         <div className="footer">
             <ul>
                 <li className="footer-title">Opening Hours</li>
                 <li>
-                    <a href="#">New deals</a>
+                    <p>Monday: {weekdayTimes}</p>
                 </li>
                 <li>
-                    <a href="#">Limited offers</a>
+                    <p>Tuesday: {weekdayTimes}</p>
                 </li>
                 <li>
-                    <a href="#">Sale</a>
+                    <p>Wednesday: {weekdayTimes}</p>
                 </li>
                 <li>
-                    <a href="#">Testimonials</a>
+                    <p>Thursday: {weekdayTimes}</p>
                 </li>
                 <li>
-                    <a href="#">About</a>
+                    <p>Friday: {weekdayTimes}</p>
+                </li>
+                <li>
+                    <p>Saturday: {saturdayTimes}</p>
+                </li>
+                <li>
+                    <p>Sunday: {sundayTimes}</p>
                 </li>
             </ul>
             <ul>
@@ -57,7 +66,7 @@ export default function Footer() {
                     <a href="#">About</a>
                 </li>
             </ul>
-        </div>
+        </div >
 
     )
 }
