@@ -19,6 +19,15 @@ $secondary-text: #757575;
     height: fit-content;
     width: fit-content;
   }
+
+  .footer-title {
+    color: $primary-accent;
+    border-bottom: 2px solid $primary-accent;
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 0.5rem 1.5rem;
+  }
+
   li {
     text-align: left;
     overflow: hidden;
@@ -29,6 +38,12 @@ $secondary-text: #757575;
     color: $primary-text;
     line-height: 2;
     width: fit-content;
+
+    i {
+      vertical-align: middle;
+      font-size: 1.1rem;
+      margin-right: 0.2rem;
+    }
   }
   a:hover {
     border-bottom: 1px solid $primary-accent;
@@ -43,12 +58,14 @@ $secondary-text: #757575;
     text-decoration: none;
     font-size: 0.9rem;
     color: $primary-accent;
+
+    i {
+      vertical-align: text-bottom;
+      font-size: 1.5rem;
+    }
   }
   a:hover {
     border-bottom: 1px solid $primary-accent;
-  }
-  i {
-    vertical-align: text-top;
   }
 }
 

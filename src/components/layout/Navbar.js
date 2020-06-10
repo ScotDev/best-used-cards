@@ -18,7 +18,7 @@ function Navbar() {
                     <p>Best Used Cars</p>
                 </li>
                 <li>
-                    <a href="#">New deals</a>
+                    <a href="#">New arrivals</a>
                 </li>
                 <li>
                     <a href="#">Limited offers</a>
@@ -31,6 +31,12 @@ function Navbar() {
                 </li>
                 <li>
                     <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Find us</a>
+                </li>
+                <li>
+                    <a href="#">Contact us</a>
                 </li>
             </ul>
 
