@@ -11,7 +11,7 @@ export default function MainContent() {
     const cardTitle2 = 'Ford Explorer 2.3L';
     const cardTitle3 = 'Audi RS5 2.9L TFSI';
     const cardTitle4 = 'Lexus LC 500 3.5L';
-    const cardTitle5 = 'Nisssan Pathfinder 3.7L';
+    const cardTitle5 = 'Nissan Pathfinder 3.7L';
     const manual = 'Manual';
     const automatic = 'Automatic';
     return (
