@@ -54,6 +54,7 @@ $secondary-text: #757575;
   background-color: $primary-color;
   text-align: center;
   padding-bottom: 1rem;
+  margin-top: -1px;
   a {
     text-decoration: none;
     font-size: 0.9rem;
@@ -72,23 +73,27 @@ $secondary-text: #757575;
 @media only screen and (max-width: 1500px) {
   .footer {
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 1rem;
   }
 }
 @media only screen and (max-width: 1250px) {
   .footer {
     grid-template-columns: 1fr 1fr;
     gap: 0.5rem;
+    padding: 0.9rem 0.6rem 0.9rem 0rem;
+
+    ul:last-of-type() {
+      display: none;
+    }
     a {
       font-size: 0.9rem;
     }
   }
 }
 
-@media only screen and (max-width: 1000px) {
-  .footer {
-    ul:last-of-type() {
-      display: none;
-    }
-  }
-}
+// @media only screen and (max-width: 1000px) {
+//   .footer {
+//     ul:last-of-type() {
+//       display: none;
+//     }
+//   }
+// }

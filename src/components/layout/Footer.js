@@ -4,9 +4,9 @@ export default function Footer() {
     return (
         <div className="footer">
             <ul>
-                <li className="footer-title">Best Used Cars</li>
+                <li className="footer-title">Opening Hours</li>
                 <li>
-                    <a href="#">New arrivals</a>
+                    <a href="#">New deals</a>
                 </li>
                 <li>
                     <a href="#">Limited offers</a>
@@ -40,9 +40,9 @@ export default function Footer() {
                 </li>
             </ul>
             <ul>
-                <li className="footer-title">Opening Hours</li>
+                <li className="footer-title">Best Used Cars</li>
                 <li>
-                    <a href="#">New deals</a>
+                    <a href="#">New arrivals</a>
                 </li>
                 <li>
                     <a href="#">Limited offers</a>
