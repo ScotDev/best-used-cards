@@ -17,7 +17,8 @@ export default function MainContent() {
     return (
         <div className="main-grid">
             <div className="card">
-                <img src={img1} className="img-card-top" alt=''></img>
+                <img src={img1} className="img-card-top" alt=''>
+                </img>
                 <div className="card-title">{cardTitle1}</div>
                 <div className="inner-card-grid">
                     <div className="inner-card-grid-item"><i class="ri-car-line"></i><p>1.8L TDI</p></div>
@@ -28,6 +29,7 @@ export default function MainContent() {
                     <div className="inner-card-grid-item"><i class="ri-user-3-line"></i><p>1 owners</p></div>
                 </div>
                 <div className="card-bottom-text">£6,000</div>
+
             </div>
             <div className="card">
                 <img src={img2} className="img-card-top" alt=''></img>

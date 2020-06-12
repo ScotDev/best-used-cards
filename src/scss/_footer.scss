@@ -29,7 +29,6 @@ $secondary-text: #757575;
   }
 
   li {
-    text-align: left;
     overflow: hidden;
     width: fit-content;
   }
@@ -44,14 +43,15 @@ $secondary-text: #757575;
     color: $primary-text;
     line-height: 2;
     width: fit-content;
-
+    padding: 0 0 0.2rem 0;
     i {
       vertical-align: middle;
       font-size: 1.1rem;
       margin-right: 0.2rem;
     }
   }
-  a:hover {
+  a:hover,
+  a:focus {
     border-bottom: 1px solid $primary-accent;
   }
 }
@@ -71,7 +71,8 @@ $secondary-text: #757575;
       font-size: 1.5rem;
     }
   }
-  a:hover {
+  a:hover,
+  a:focus {
     border-bottom: 1px solid $primary-accent;
   }
 }
