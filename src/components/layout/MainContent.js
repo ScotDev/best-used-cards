@@ -6,6 +6,8 @@ import img3 from '../../img/audi.jpg'
 import img4 from '../../img/lexus.jpg'
 import img5 from '../../img/nissan.jpg'
 
+
+
 export default function MainContent() {
     const cardTitle1 = 'Volkswagen Polo 1.8L';
     const cardTitle2 = 'Ford Explorer 2.3L';
