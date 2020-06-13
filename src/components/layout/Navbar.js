@@ -17,13 +17,13 @@ function Navbar() {
 
             <ul className="desktop-menu-links">
                 <li>
-                    <a href="#">New arrivals</a>
+                    <a href="#new-arrivals">New arrivals</a>
                 </li>
                 <li>
                     <a href="#">Limited offers</a>
                 </li>
                 <li>
-                    <a href="#">Sale</a>
+                    <a href="#sale">Sale</a>
                 </li>
                 <li>
                     <a href="#">About</a>
@@ -44,13 +44,13 @@ function Navbar() {
 
                 <ul id="mobile-menu">
                     <li>
-                        <a href="#">New arrivals</a>
+                        <a href="#new-arrivals">New arrivals</a>
                     </li>
                     <li>
                         <a href="#">Limited offers</a>
                     </li>
                     <li>
-                        <a href="#">Sale</a>
+                        <a href="#sale">Sale</a>
                     </li>
                     <li>
                         <a href="#">About</a>

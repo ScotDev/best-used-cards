@@ -28,7 +28,7 @@ export default function MainContent() {
                     <div className="inner-card-grid-item"><i class="ri-oil-line"></i><p>52.9 MPG</p></div>
                     <div className="inner-card-grid-item"><i class="ri-user-3-line"></i><p>1 owners</p></div>
                 </div>
-                <div className="card-bottom-text">£6,000</div>
+                <div className="card-bottom-text"><span className="previous-price">£6,000</span><span className="now">Now</span>£5,500</div>
 
             </div>
             <div className="card">
@@ -42,7 +42,7 @@ export default function MainContent() {
                     <div className="inner-card-grid-item"><i class="ri-oil-line"></i><p>52.9 MPG</p></div>
                     <div className="inner-card-grid-item"><i class="ri-user-3-line"></i><p>1 owners</p></div>
                 </div>
-                <div className="card-bottom-text">£16,000</div>
+                <div className="card-bottom-text"><span className="previous-price">£18,000</span><span className="now">Now</span>£16,000</div>
             </div>
             <div className="card">
                 <img src={img3} className="img-card-top" alt=''></img>
@@ -55,7 +55,7 @@ export default function MainContent() {
                     <div className="inner-card-grid-item"><i class="ri-oil-line"></i><p>52.9 MPG</p></div>
                     <div className="inner-card-grid-item"><i class="ri-user-3-line"></i><p>1 owners</p></div>
                 </div>
-                <div className="card-bottom-text">£27,000</div>
+                <div className="card-bottom-text"><span className="previous-price">£28,000</span><span className="now">Now</span>£27,000</div>
             </div>
             <div className="card">
                 <img src={img4} className="img-card-top" alt=''></img>
@@ -68,7 +68,7 @@ export default function MainContent() {
                     <div className="inner-card-grid-item"><i class="ri-oil-line"></i><p>52.9 MPG</p></div>
                     <div className="inner-card-grid-item"><i class="ri-user-3-line"></i><p>1 owners</p></div>
                 </div>
-                <div className="card-bottom-text">£19,000</div>
+                <div className="card-bottom-text"><span className="previous-price">£20,000</span><span className="now">Now</span>£19,000</div>
             </div>
             <div className="card">
                 <img src={img5} className="img-card-top" alt=''></img>
@@ -81,7 +81,7 @@ export default function MainContent() {
                     <div className="inner-card-grid-item"><i class="ri-oil-line"></i><p>52.9 MPG</p></div>
                     <div className="inner-card-grid-item"><i class="ri-user-3-line"></i><p>1 owners</p></div>
                 </div>
-                <div className="card-bottom-text">£14,000</div>
+                <div className="card-bottom-text"><span className="previous-price">£15,500</span><span className="now">Now</span>£14,000</div>
             </div>
             <div className="card">
                 <img src={img1} className="img-card-top" alt=''></img>
@@ -94,7 +94,7 @@ export default function MainContent() {
                     <div className="inner-card-grid-item"><i class="ri-oil-line"></i><p>52.9 MPG</p></div>
                     <div className="inner-card-grid-item"><i class="ri-user-3-line"></i><p>1 owners</p></div>
                 </div>
-                <div className="card-bottom-text">£6,000</div>
+                <div className="card-bottom-text"><span className="previous-price">£6,500</span><span className="now">Now</span>£6,000</div>
             </div>
             <div className="card">
                 <img src={img2} className="img-card-top" alt=''></img>
@@ -107,7 +107,7 @@ export default function MainContent() {
                     <div className="inner-card-grid-item"><i class="ri-oil-line"></i><p>52.9 MPG</p></div>
                     <div className="inner-card-grid-item"><i class="ri-user-3-line"></i><p>1 owners</p></div>
                 </div>
-                <div className="card-bottom-text">£6,000</div>
+                <div className="card-bottom-text"><span className="previous-price">£7,000</span><span className="now">Now</span>£6,000</div>
             </div>
             <div className="card">
                 <img src={img3} className="img-card-top" alt=''></img>
@@ -120,7 +120,7 @@ export default function MainContent() {
                     <div className="inner-card-grid-item"><i class="ri-oil-line"></i><p>52.9 MPG</p></div>
                     <div className="inner-card-grid-item"><i class="ri-user-3-line"></i><p>1 owners</p></div>
                 </div>
-                <div className="card-bottom-text">£6,000</div>
+                <div className="card-bottom-text"><span className="previous-price">£10,000</span><span className="now">Now</span>£9,500</div>
             </div>
             <div className="card">
                 <img src={img4} className="img-card-top" alt=''></img>
@@ -133,7 +133,7 @@ export default function MainContent() {
                     <div className="inner-card-grid-item"><i class="ri-oil-line"></i><p>52.9 MPG</p></div>
                     <div className="inner-card-grid-item"><i class="ri-user-3-line"></i><p>1 owners</p></div>
                 </div>
-                <div className="card-bottom-text">£6,000</div>
+                <div className="card-bottom-text"><span className="previous-price">£12,000</span><span className="now">Now</span>£11,000</div>
             </div>
             <div className="card">
                 <img src={img5} className="img-card-top" alt=''></img>
@@ -146,7 +146,7 @@ export default function MainContent() {
                     <div className="inner-card-grid-item"><i class="ri-oil-line"></i><p>52.9 MPG</p></div>
                     <div className="inner-card-grid-item"><i class="ri-user-3-line"></i><p>1 owners</p></div>
                 </div>
-                <div className="card-bottom-text">£6,000</div>
+                <div className="card-bottom-text"><span className="previous-price">£13,000</span><span className="now">Now</span>£12,000</div>
             </div>
         </div>
     )

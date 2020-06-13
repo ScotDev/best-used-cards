@@ -40,13 +40,13 @@ export default function Footer() {
             <ul>
                 <li className="footer-title">Best Used Cars</li>
                 <li>
-                    <a href="#">New arrivals</a>
+                    <a href="#new-arrivals">New arrivals</a>
                 </li>
                 <li>
                     <a href="#">Limited offers</a>
                 </li>
                 <li>
-                    <a href="#">Sale</a>
+                    <a href="#sale">Sale</a>
                 </li>
                 <li>
                     <a href="#">Testimonials</a>
