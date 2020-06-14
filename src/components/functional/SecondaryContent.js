@@ -1,21 +1,9 @@
 import React from 'react';
 
-import data from '../../data.json';
+import data from '../../sale_data.json';
 
-// import img1 from '../../img/vw.jpg'
-// import img2 from '../../img/ford.jpg'
-// import img3 from '../../img/audi.jpg'
-// import img4 from '../../img/lexus.jpg'
-// import img5 from '../../img/nissan.jpg'
 
 export default function MainContent() {
-    // const cardTitle1 = 'Volkswagen Polo 1.8L';
-    // const cardTitle2 = 'Ford Explorer 2.3L';
-    // const cardTitle3 = 'Audi RS5 2.9L TFSI';
-    // const cardTitle4 = 'Lexus LC 500 3.5L';
-    // const cardTitle5 = 'Nissan Pathfinder 3.7L';
-    // const manual = 'Manual';
-    // const automatic = 'Automatic';
 
     const items = data.map(item => {
         return (<div className="card" key={item.id}>

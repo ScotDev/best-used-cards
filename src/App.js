@@ -3,8 +3,9 @@ import './styles.min.css';
 
 import Navbar from './components/layout/Navbar';
 import Banner from './components/layout/Banner';
-import MainContent from './components/layout/MainContent';
-import SecondaryContent from './components/layout/SecondaryContent';
+import MainContent from './components/functional/MainContent';
+import SecondaryContent from './components/functional/SecondaryContent';
+import Info from './components/layout/Info';
 import Footer from './components/layout/Footer';
 import Credits from './components/layout/Credits';
 
@@ -20,6 +21,7 @@ function App() {
             <h3>New Arrivals</h3>
           </section>
           <MainContent></MainContent>
+          <Info></Info>
           <section id="sale" className="section-heading">
             <h3>Sale</h3>
           </section>

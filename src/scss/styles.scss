@@ -3,6 +3,7 @@
 @import '_banner';
 @import '_navbar';
 @import '_contentGrid';
+@import '_info';
 @import '_footer';
 
 $primary-color: #0b132b;
@@ -53,24 +54,39 @@ html {
 }
 
 .btn {
-  border: 1px solid;
+  border: 2px solid;
   border-radius: 6px;
   padding: 0.5rem 0.7rem;
   max-width: 20%;
   min-width: fit-content;
-  margin: 0.5rem 0.5rem;
+  text-align: center;
+  transition: all 0.1s ease;
 }
 
 .primary-btn {
   @extend .btn;
-  background-color: rgba($black, 0.4);
-  color: $primary-text;
+  background-color: $primary-color;
+  color: $primary-accent;
 }
 
-.info-btn {
+.secondary-btn {
   @extend .btn;
   background-color: $secondary-text;
   color: $primary-text;
+}
+
+.btn:hover,
+.btn:focus {
+  transform: translateY(-2px);
+  // transform: translateY(-1px);
+
+  box-shadow: 1px 1px 10px $primary-accent;
+  -moz-box-shadow: 1px 1px 10px $primary-accent;
+  -webkit-box-shadow: 1px 1px 10px $primary-accent;
+}
+
+.btn:active {
+  transform: translateY(-4px) scale(1.05);
 }
 
 %message {
