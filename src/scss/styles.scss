@@ -78,8 +78,6 @@ html {
 .btn:hover,
 .btn:focus {
   transform: translateY(-2px);
-  // transform: translateY(-1px);
-
   box-shadow: 1px 1px 10px $primary-accent;
   -moz-box-shadow: 1px 1px 10px $primary-accent;
   -webkit-box-shadow: 1px 1px 10px $primary-accent;
@@ -87,15 +85,6 @@ html {
 
 .btn:active {
   transform: translateY(-4px) scale(1.05);
-}
-
-%message {
-  color: $primary-text;
-}
-
-.error {
-  @extend %message;
-  background-color: red;
 }
 
 body::-webkit-scrollbar {
