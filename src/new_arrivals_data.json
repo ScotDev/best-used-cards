@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1",
+    "imgFileName": "vw",
+    "make": "Volkswagen",
+    "model": "Polo",
+    "litre": "1.8",
+    "turbo": "",
+    "transmission": "manual",
+    "mileage": "51,000",
+    "fuel": "diesel",
+    "mpg": "49.9",
+    "owners": "1",
+    "oldPrice": "16,000"
+  },
+  {
+    "id": "2",
+    "imgFileName": "ford",
+    "make": "ford",
+    "model": "explorer",
+    "litre": "2.3",
+    "turbo": "",
+    "transmission": "automatic",
+    "mileage": "62,000",
+    "fuel": "petrol",
+    "mpg": "28.9",
+    "owners": "2",
+    "oldPrice": "28,000"
+  },
+  {
+    "id": "3",
+    "imgFileName": "audi",
+    "make": "audi",
+    "model": "RS5",
+    "litre": "2.9",
+    "turbo": "tfsi",
+    "transmission": "manual",
+    "mileage": "40,000",
+    "fuel": "petrol",
+    "mpg": "31.7",
+    "owners": "1",
+    "oldPrice": "34,000"
+  },
+  {
+    "id": "4",
+    "imgFileName": "lexus",
+    "make": "lexus",
+    "model": "LC 500",
+    "litre": "3.5",
+    "turbo": "",
+    "transmission": "automatic",
+    "mileage": "85,000",
+    "fuel": "petrol",
+    "mpg": "32.4",
+    "owners": "2",
+    "oldPrice": "23,000"
+  },
+  {
+    "id": "5",
+    "imgFileName": "nissan",
+    "make": "nissan",
+    "model": "pathfinder",
+    "litre": "3.7",
+    "turbo": "",
+    "transmission": "manual",
+    "mileage": "82,000",
+    "fuel": "petrol",
+    "mpg": "46.0",
+    "owners": "2",
+    "oldPrice": "10,000"
+  }
+]

@@ -16,7 +16,7 @@ export default function MainContent() {
                 <div className="inner-card-grid-item"><i class="ri-route-line"></i><p>{item.mileage} mi</p></div>
                 <div className="inner-card-grid-item"><i class="ri-gas-station-line"></i><p>{item.fuel}</p></div>
                 <div className="inner-card-grid-item"><i class="ri-oil-line"></i><p>{item.mpg} MPG</p></div>
-                <div className="inner-card-grid-item"><i class="ri-user-3-line"></i><p>{item.owners} owners</p></div>
+                <div className="inner-card-grid-item"><i class="ri-user-3-line"></i><p>{item.owners} {item.owners === '1' ? 'owner' : 'owners'}</p></div>
             </div>
             <div className="card-bottom-text"><span className="previous-price">£{item.oldPrice}</span><span className="now">Now</span>£{item.newPrice}</div>
         </div>)
